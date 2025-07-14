@@ -3,7 +3,7 @@ import requests
 from datetime import datetime
 
 app = Flask(__name__)
-API_KEY = '6df2b84574a5608ae8e7b5a7b035f142'
+API_KEY = 'Your_API_KEY'
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
